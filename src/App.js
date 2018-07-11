@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { styles } from './styles/styles';
 import { Navbar } from './components/Navbar';
-
+import { Intro } from './components/Intro';
+ 
 const overrallStyle = {
   fontFamily: styles.fontFamily,
   fontSize: styles.fontSize,
@@ -15,7 +16,7 @@ class App extends Component {
     return (
       <div className="App" style={overrallStyle}>
         <Navbar/>
-        Poop
+        <Intro />
       </div>
     );
   }
